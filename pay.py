@@ -12,7 +12,6 @@ import requests
 from .base import Map, WeixinError
 
 try:
-    # from flask import request
     from odoo.http import request
 except Exception:
     request = None
@@ -48,7 +47,6 @@ class WeixinPay(object):
     @property
     def remote_addr(self):
         if request is not None:
-            # return request.remote_addr
             return request.httprequest.environ['REMOTE_ADDR']
         return ""
 
