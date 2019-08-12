@@ -1,4 +1,4 @@
-# odoo-wxpay
+# Odoo-wxpay
 odoo接入微信SDK - 包括微信支付,微信登陆,微信消息处理
 # 安装
 
